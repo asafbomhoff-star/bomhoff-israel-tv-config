@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "configVersion": 1,
+  "updatedAt": "2026-11-18T21:00:00+02:00",
+  "catalogUrl": "https://raw.githubusercontent.com/Fishenzon/repo/master/plugin.video.idanplus/series.json.zip",
+  "epgUrl": "https://raw.githubusercontent.com/fishenzon-epg/EPG/main/epg.json.zip",
+  "channels": {
+    "0": [
+      {"id":"kan11-primary","url":"https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8"},
+      {"id":"kan11-backup","url":"https://r.il.cdn-redge.media/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8"}
+    ],
+    "1": [
+      {"id":"keshet12-primary","url":"https://mako-streaming.akamaized.net/stream/hls/live/20000821/k12rh-dvr/index.m3u8","ticketPath":"/stream/hls/live/20000821/k12rh-dvr/index.m3u8","ticketRv":"AKAMAI","referer":"https://www.mako.co.il/","origin":"https://www.mako.co.il"},
+      {"id":"keshet12-backup-aws","url":"https://d2249b6f08tjt0.cloudfront.net/k12dvr/index.m3u8?b-in-range=0-5600","ticketPath":"/k12dvr/index.m3u8?b-in-range=0-5600","ticketRv":"AWS","referer":"https://www.mako.co.il/","origin":"https://www.mako.co.il"},
+      {"id":"keshet12-backup-akamai","url":"https://mako-streaming.akamaized.net/n12/hls/live/20000821/k12rh/index.m3u8","ticketPath":"/n12/hls/live/20000821/k12rh/index.m3u8","ticketRv":"AKAMAI","referer":"https://www.mako.co.il/","origin":"https://www.mako.co.il"}
+    ],
+    "2": [
+      {"id":"reshet13-primary","url":"https://d18b0e6mopany4.cloudfront.net/out/v1/2f2bc414a3db4698a8e94b89eaf2da2a/index.m3u8","referer":"https://13tv.co.il/live/","origin":"https://13tv.co.il"},
+      {"id":"reshet13-backup","url":"https://d2xg1g9o5vns8m.cloudfront.net/out/v1/0855d703f7d5436fae6a9c7ce8ca5075/index.m3u8","referer":"https://13tv.co.il/live/","origin":"https://13tv.co.il"}
+    ],
+    "3": [
+      {"id":"now14-primary","url":"https://r.il.cdn-redge.media/livehls/oil/ch14/live/ch14/live.livx/playlist.m3u8"},
+      {"id":"now14-backup","url":"https://n-121-6.il.cdn-redge.media/livehls/oil/ch14/live/ch14/live.livx/playlist.m3u8"}
+    ],
+    "4": [
+      {"id":"kan-edu-primary","url":"https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan_edu/live.livx/playlist.m3u8"},
+      {"id":"kan-edu-backup","url":"https://r.il.cdn-redge.media/livehls/oil/kancdn-live/live/kan_edu/live.livx/playlist.m3u8"}
+    ],
+    "5": [
+      {"id":"makan33-primary","url":"https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/makan/live.livx/playlist.m3u8"},
+      {"id":"makan33-backup","url":"https://r.il.cdn-redge.media/livehls/oil/kancdn-live/live/makan/live.livx/playlist.m3u8"}
+    ],
+    "6": [
+      {"id":"knesset99-primary","url":"https://kneset.gostreaming.tv/p2-kneset/_definst_/myStream/chunklist.m3u8"},
+      {"id":"knesset99-backup","url":"https://w1.013.gostreaming.tv/Knesset/myStream/playlist.m3u8"}
+    ]
+  }
+}
